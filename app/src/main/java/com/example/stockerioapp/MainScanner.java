@@ -40,6 +40,7 @@ public class MainScanner extends AppCompatActivity {
 
     private Button mBillBtn;
 
+
     private FirebaseAuth mAuth;
     private FirebaseFirestore fStore;
 
