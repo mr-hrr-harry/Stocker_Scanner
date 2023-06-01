@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VendorLogin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="-- V E N D O R --"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <EditText
+        android:id="@+id/vendorLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:hint="@string/your_email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/vendorLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_key_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/your_password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/vendorLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New to StockerIO ?"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/vendorSignUpPg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="@color/purple_500"
+            android:onClick="vendorSignupPg"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

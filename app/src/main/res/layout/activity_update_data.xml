@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updateData"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE COUNT"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/updateGoodScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_document_scanner_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/ic_launcher_background"
+        android:text="SCANNER"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:paddingLeft="30dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/updateProductTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT: "
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/stockUpdateCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_shopping_bag_24"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:hint="Stock Count"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/alertUpdateCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_warning_24"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:hint="Alert Count"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UPDATE"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/logoButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/stockerioapplogo"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitCenter"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stockerio"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am a ..."
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/vendorLoginPgButton"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/vendor"
+            android:onClick="vendorLoginPg"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_500"
+
+            />
+
+
+        <Button
+            android:id="@+id/dealerLoginPgButton"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/dealer"
+            android:onClick="dealerLoginPg"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_500"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

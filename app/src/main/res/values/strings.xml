@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StockerIO</string>
+    <string name="dealer">DEALER</string>
+    <string name="vendor">VENDOR</string>
+    <string name="stockerio">-- StockerIO --</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your Password</string>
+    <string name="login">LOGIN</string>
+    <string name="your_name">Your Name</string>
+    <string name="v_e_n_d_o_r">-- V E N D O R --</string>
+    <string name="d_e_a_l_e_r">-- D E A L E R --</string>
+    <string name="your_phone_no">Your Phone No</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="location_address">Location Address</string>
+    <string name="store_name">Store Name</string>
+</resources>

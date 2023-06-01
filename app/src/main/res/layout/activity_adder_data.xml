@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adderData"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Details"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/scanGoodsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_document_scanner_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/ic_launcher_background"
+        android:text="SCANNER"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:paddingLeft="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/barcodeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BARCODE: "
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:hint="Product Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/productPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_currency_rupee_24"
+        android:drawablePadding="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Product Price"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/stockCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_shopping_bag_24"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:hint="Stock Count"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/alertCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_warning_24"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:hint="Alert Count"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/dealerPhNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:inputType="phone"
+        android:hint="Dealer Phone Number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#6D000000"
+        android:padding="20dp"
+        />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ADD"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="17dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_500"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

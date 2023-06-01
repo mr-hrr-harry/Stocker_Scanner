@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".VendorHomePage">
+
+    <Button
+        android:id="@+id/vendorLogoutButton"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E42D2D"
+        android:drawableLeft="@drawable/ic_baseline_logout_24"
+        android:drawablePadding="0dp"
+        android:layout_gravity="end"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:onClick="vendorLogout"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        android:text="HOME"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/welcomeAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/goodsScan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/ic_baseline_notes_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/ic_launcher_background"
+        android:text="SCAN and BILL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:paddingLeft="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/addGoods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="140dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_baseline_add_24"
+            android:drawableTint="@color/ic_launcher_background"
+            android:text="Add Goods"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:id="@+id/removeGoods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="140dp"
+            android:minHeight="10dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_baseline_remove_24"
+            android:drawableTint="@color/ic_launcher_background"
+            android:text="Remove Goods"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateGoods"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_baseline_update_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/ic_launcher_background"
+         android:text="UPDATE COUNT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:padding="20dp"
+        android:paddingLeft="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/myInventory"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/ic_baseline_store_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/ic_launcher_background"
+        android:text="MY INVENTORY"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:paddingLeft="30dp"
+        />
+
+</LinearLayout>

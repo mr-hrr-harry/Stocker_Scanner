@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DealerSignup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/d_e_a_l_e_r"
+            android:layout_marginTop="100dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <EditText
+            android:id="@+id/dealerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/your_name"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#6D000000"
+            android:padding="20dp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/delaerPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="10dp"
+            android:hint="Your Phone No"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#6D000000"
+            android:padding="20dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/dealerLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/your_email"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#6D000000"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/dealerLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_baseline_key_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/your_password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:background="#6D000000"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/dealerConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_baseline_key_dim_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/confirm_password"
+            android:textColorHint="#888888"
+            android:textColor="#888888"
+            android:inputType="textPassword"
+            android:background="#34000000"
+            android:padding="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/dealerLoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="SIGNUP"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_500"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

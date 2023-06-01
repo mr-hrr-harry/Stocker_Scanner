@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "661187803374",
+    "firebase_url": "https://stockerioapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "stockerioapp",
+    "storage_bucket": "stockerioapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661187803374:android:3c6e6ff57b2796b8239bff",
+        "android_client_info": {
+          "package_name": "com.example.stockerioapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661187803374-f0fquscemfbl7nnp2hkdbiaft7c57aja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaITOTVowixs1Rsewz7DAytcoWO-22q78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661187803374-f0fquscemfbl7nnp2hkdbiaft7c57aja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
