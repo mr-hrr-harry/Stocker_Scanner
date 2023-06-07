@@ -47,8 +47,12 @@ public class VendorHomePage extends AppCompatActivity {
         docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
-                vendorName = value.getString("Name");
-                welcome.setText("Welcome " + vendorName + "!");
+
+                if (value != null && value.exists()) {
+                    vendorName = value.getString("Name");
+                    welcome.setText("Welcome " + vendorName + "!");
+                }
+
             }
         });
 
