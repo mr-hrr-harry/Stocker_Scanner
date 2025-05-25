@@ -12,3 +12,18 @@ The app arch includes,
 
 ## Authetication:
 - **Google Firebase Authentication**: Login Auth for dealers & vendors
+
+## Outcome Images:
+![Image_1](https://github.com/user-attachments/assets/7299646d-784a-4c41-992e-09258d2a1e65)
+<br/>
+<br/>
+<br/>
+![Image_2](https://github.com/user-attachments/assets/7fe63ecb-922d-4fd5-9171-ef931f933949)
+<br/>
+<br/>
+<br/>
+![Image_3](https://github.com/user-attachments/assets/121f6344-3e59-472f-ad7f-b84d996cf189)
+<br/>
+<br/>
+<br/>
+![Image_4](https://github.com/user-attachments/assets/dd325ca2-78fc-4c0b-8f8d-266d39fb0743)
