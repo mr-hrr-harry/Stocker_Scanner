@@ -13,6 +13,9 @@ The app arch includes,
 ## Authetication:
 - **Google Firebase Authentication**: Login Auth for dealers & vendors
 
+## Build:
+- **Gradle build**: App build in android studio with gradle & tested the working in Android 12 ✅
+
 ## Outcome Images:
 ![Image_1](https://github.com/user-attachments/assets/7299646d-784a-4c41-992e-09258d2a1e65)
 <br/>
